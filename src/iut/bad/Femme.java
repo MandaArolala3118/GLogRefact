@@ -11,8 +11,10 @@ public class Femme  extends Humain{
     public static void main(String[] args) {
 		Homme homme1 = new Homme("Doe", "John", 30);
         Femme femme1 = new Femme("Doe", "Jane", 25);
-        Humain ami = femme1.ami(homme1);
-        System.err.println(femme1.getPrenom()+ " est ami(e) avec "+ ami.getPrenom());
+        femme1.ami(homme1);
+        Humain ami = femme1.getAmi();
+        System.err.println(femme1.getPrenom()+ " est ami(e) avec "+ ami.getPrenom() );
+        System.err.println("Nombre de jour =" + ami.getAmiNbJour());
     
     
 	} 
