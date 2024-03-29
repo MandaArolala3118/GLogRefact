@@ -34,4 +34,10 @@ public class Humain {
     public void setAge(int age) {
         this.age = age;
     }
+    public void manger(){
+        
+    }
+    public void boire(){
+        
+    }
 }
