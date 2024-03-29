@@ -4,9 +4,9 @@ public class Main {
 		Homme homme1 = new Homme("Doe", "John", 30);
         Femme femme1 = new Femme("Doe", "Jane", 25);
 
-        homme1.details();
+        System.out.println(homme1.toString());
+        System.out.println(femme1.toString());
     
-        femme1.details();
     
 	}
 }
